@@ -1,6 +1,6 @@
 
 call plug#begin('~/.vim/plugged')
-
+	
 	Plug 'hrsh7th/nvim-cmp'
 	Plug 'hrsh7th/cmp-nvim-lsp'
 	Plug 'hrsh7th/cmp-buffer'
@@ -9,6 +9,5 @@ call plug#begin('~/.vim/plugged')
 	Plug 'projekt0n/github-nvim-theme'
 
 call plug#end()
-
 set relativenumber
 colorscheme github_dark_dimmed
